@@ -1,0 +1,14 @@
+# ninja log v6
+19	125	7693716683867707	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	d8e15b3714957cdf
+16	225	7693716683831604	CMakeFiles/untitled.dir/DaneGenerator.cpp.obj	f913cb96687b8667
+13	353	7693717827146826	CMakeFiles/untitled.dir/main.cpp.obj	9e40f55857c80d8b
+12	758	7693716683783635	CMakeFiles/untitled.dir/Badanie.cpp.obj	6a15d1eed8b2629a
+353	439	7693717830549420	untitled.exe	93c53ad4fe51346c
+34	140	7693736172206705	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
+30	236	7693736172175605	CMakeFiles/untitled.dir/DaneGenerator.cpp.obj	834ab3bc8f78f765
+17	365	7693736172053033	CMakeFiles/untitled.dir/main.cpp.obj	a7b9b1c539d37a53
+27	779	7693736172144607	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+779	879	7693736179665387	untitled.exe	93c53ad4fe51346c
+21	120	7693748059167111	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
+11	759	7693748059076722	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+759	842	7693748066553537	untitled.exe	93c53ad4fe51346c
