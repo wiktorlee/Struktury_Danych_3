@@ -9,4 +9,8 @@ add_executable(untitled main.cpp
         DaneGenerator.cpp
         DaneGenerator.hpp
         TablicaDynamiczna.cpp
-        TablicaDynamiczna.hpp)
+        TablicaDynamiczna.hpp
+        ListaJednokierunkowa.cpp
+        ListaJednokierunkowa.hpp
+        KubelkiJednokierunkowe.cpp
+        KubelkiJednokierunkowe.hpp)

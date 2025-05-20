@@ -1,14 +1,16 @@
 # ninja log v6
-19	125	7693716683867707	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	d8e15b3714957cdf
-16	225	7693716683831604	CMakeFiles/untitled.dir/DaneGenerator.cpp.obj	f913cb96687b8667
-13	353	7693717827146826	CMakeFiles/untitled.dir/main.cpp.obj	9e40f55857c80d8b
-12	758	7693716683783635	CMakeFiles/untitled.dir/Badanie.cpp.obj	6a15d1eed8b2629a
-353	439	7693717830549420	untitled.exe	93c53ad4fe51346c
-34	140	7693736172206705	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
+21	120	7693748059167111	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
 30	236	7693736172175605	CMakeFiles/untitled.dir/DaneGenerator.cpp.obj	834ab3bc8f78f765
 17	365	7693736172053033	CMakeFiles/untitled.dir/main.cpp.obj	a7b9b1c539d37a53
-27	779	7693736172144607	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
-779	879	7693736179665387	untitled.exe	93c53ad4fe51346c
-21	120	7693748059167111	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
 11	759	7693748059076722	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
 759	842	7693748066553537	untitled.exe	93c53ad4fe51346c
+26	365	7694521030505548	CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj	3a116a8998995959
+22	368	7694521030474006	CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj	a8697840d329d583
+26	359	7694521911107975	CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj	3a116a8998995959
+23	361	7694521911076330	CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj	a8697840d329d583
+13	791	7694521910983212	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+791	990	7694521918765012	untitled.exe	1718c8a22e8ae354
+3	782	7694526667919770	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+782	869	7694526675697231	untitled.exe	1718c8a22e8ae354
+13	785	7694526936493366	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+785	872	7694526944221623	untitled.exe	1718c8a22e8ae354
