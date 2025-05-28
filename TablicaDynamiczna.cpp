@@ -39,18 +39,18 @@ void TablicaDynamiczna::insert(int klucz, int wartosc) {
     int indeks = hash(klucz);
 
     for (int i = 0; i < pojemnosc; ++i) {
-        int probe = (indeks + i) % pojemnosc;
+        int indeksProby = (indeks + i) % pojemnosc;
 
-        if (tablica[probe].stan == PUSTY || tablica[probe].stan == USUNIETY) {
-            tablica[probe].klucz = klucz;
-            tablica[probe].wartosc = wartosc;
-            tablica[probe].stan = ZAJETY;
+        if (tablica[indeksProby].stan == PUSTY || tablica[indeksProby].stan == USUNIETY) {
+            tablica[indeksProby].klucz = klucz;
+            tablica[indeksProby].wartosc = wartosc;
+            tablica[indeksProby].stan = ZAJETY;
             rozmiar++;
             return;
         }
 
-        if (tablica[probe].stan == ZAJETY && tablica[probe].klucz == klucz) {
-            tablica[probe].wartosc = wartosc;
+        if (tablica[indeksProby].stan == ZAJETY && tablica[indeksProby].klucz == klucz) {
+            tablica[indeksProby].wartosc = wartosc;
             return;
         }
     }
@@ -60,14 +60,14 @@ bool TablicaDynamiczna::remove(int klucz) {
     int indeks = hash(klucz);
 
     for (int i = 0; i < pojemnosc; ++i) {
-        int probe = (indeks + i) % pojemnosc;
+        int indeksProby = (indeks + i) % pojemnosc;
 
-        if (tablica[probe].stan == PUSTY) {
+        if (tablica[indeksProby].stan == PUSTY) {
             return false;
         }
 
-        if (tablica[probe].stan == ZAJETY && tablica[probe].klucz == klucz) {
-            tablica[probe].stan = USUNIETY;
+        if (tablica[indeksProby].stan == ZAJETY && tablica[indeksProby].klucz == klucz) {
+            tablica[indeksProby].stan = USUNIETY;
             rozmiar--;
             return true;
         }
