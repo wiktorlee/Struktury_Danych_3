@@ -108,9 +108,7 @@ AVLNode* AVLTree::removeNode(AVLNode* n, int k) {
 AVLNode* AVLTree::findNode(AVLNode* n, int k) const {
     if (!n) return nullptr;
     if (k == n->key) return n;
-    return (k < n->key)
-         ? findNode(n->left, k)
-         : findNode(n->right, k);
+    return (k < n->key) ? findNode(n->left, k) : findNode(n->right, k);
 }
 
 void AVLTree::deleteTree(AVLNode* n) {
