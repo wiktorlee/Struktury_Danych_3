@@ -1,7 +1,7 @@
 #include "Badanie.hpp"
 #include "TablicaDynamiczna.hpp"
 #include "KubelkiJednokierunkowe.hpp"
-#include "AVLTree.h"
+#include "HashTableAVL.h"
 #include "DaneGenerator.hpp"
 #include <chrono>
 #include <iostream>
@@ -14,8 +14,8 @@ void Badanie::testInsert(int size, int samples, int operations) {
 
     for (int s = 0; s < samples; ++s) {
         TablicaDynamiczna ht1;
-        KubelkiJednokierunkowe ht2(size/2);
-        AVLTree ht3;
+        KubelkiJednokierunkowe ht2(size / 2);
+        HashTableAVL ht3(size / 2);
 
         auto pary = DaneGenerator::generujParyKluczWartosc(size + operations);
 
@@ -38,10 +38,10 @@ void Badanie::testInsert(int size, int samples, int operations) {
             t1 = high_resolution_clock::now();
             t_list += duration_cast<nanoseconds>(t1 - t0).count();
 
-             t0 = high_resolution_clock::now();
-             ht3.insert(key, value);
-             t1 = high_resolution_clock::now();
-             t_avl += duration_cast<nanoseconds>(t1 - t0).count();
+            t0 = high_resolution_clock::now();
+            ht3.insert(key, value);
+            t1 = high_resolution_clock::now();
+            t_avl += duration_cast<nanoseconds>(t1 - t0).count();
         }
 
         delete[] pary;
@@ -58,8 +58,8 @@ void Badanie::testRemove(int size, int samples, int operations) {
 
     for (int s = 0; s < samples; ++s) {
         TablicaDynamiczna ht1;
-        KubelkiJednokierunkowe ht2(size/2);
-        AVLTree ht3;
+        KubelkiJednokierunkowe ht2(size / 2);
+        HashTableAVL ht3(size / 2);
 
         auto pary = DaneGenerator::generujParyKluczWartosc(size + operations);
 
@@ -83,9 +83,9 @@ void Badanie::testRemove(int size, int samples, int operations) {
             t_list += duration_cast<nanoseconds>(t1 - t0).count();
 
             t0 = high_resolution_clock::now();
-             ht3.remove(key);
-             t1 = high_resolution_clock::now();
-             t_avl += duration_cast<nanoseconds>(t1 - t0).count();
+            ht3.remove(key);
+            t1 = high_resolution_clock::now();
+            t_avl += duration_cast<nanoseconds>(t1 - t0).count();
         }
 
         delete[] pary;

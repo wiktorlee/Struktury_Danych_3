@@ -61,14 +61,14 @@ build CMakeFiles/untitled.dir/Badanie.cpp.obj: CXX_COMPILER__untitled_unscanned_
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/DaneGenerator.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/DaneGenerator.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\DaneGenerator.cpp.obj.d
+build CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/TablicaDynamiczna.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\TablicaDynamiczna.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/TablicaDynamiczna.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\TablicaDynamiczna.cpp.obj.d
+build CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/KubelkiJednokierunkowe.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\KubelkiJednokierunkowe.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
@@ -79,8 +79,20 @@ build CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj: CXX_COMPILER__untitl
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/KubelkiJednokierunkowe.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\KubelkiJednokierunkowe.cpp.obj.d
+build CMakeFiles/untitled.dir/DaneGenerator.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/DaneGenerator.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\DaneGenerator.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/HashTAbleAVL.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/HashTAbleAVL.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\HashTAbleAVL.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+
+build CMakeFiles/untitled.dir/AVLTree.cpp.obj: CXX_COMPILER__untitled_unscanned_Debug C$:/Users/pc/Desktop/studia/SEM$ 4/Struktury$ danych/Projekt3/AVLTree.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\AVLTree.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
@@ -93,7 +105,7 @@ build CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj: CXX_COMPILER__unti
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/Badanie.cpp.obj CMakeFiles/untitled.dir/DaneGenerator.cpp.obj CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj
+build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/Badanie.cpp.obj CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj CMakeFiles/untitled.dir/DaneGenerator.cpp.obj CMakeFiles/untitled.dir/HashTAbleAVL.cpp.obj CMakeFiles/untitled.dir/AVLTree.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
