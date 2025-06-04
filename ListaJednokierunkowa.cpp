@@ -1,7 +1,4 @@
 #include "ListaJednokierunkowa.hpp"
-#include <iostream>
-
-using namespace std;
 
 ListaJednokierunkowa::ListaJednokierunkowa()
     : head(nullptr), tail(nullptr), rozmiar(0) {}
@@ -15,7 +12,6 @@ ListaJednokierunkowa::~ListaJednokierunkowa() {
 }
 
 void ListaJednokierunkowa::insert(int klucz, int wartosc) {
-    if (contains(klucz)) return;
 
     ListaElement e(klucz, wartosc);
     Wezel* newWezel = new Wezel(e);
@@ -54,36 +50,6 @@ void ListaJednokierunkowa::remove(int klucz) {
         delete doUsuniecia;
         rozmiar--;
     }
-}
-
-bool ListaJednokierunkowa::contains(int klucz) const {
-    Wezel* aktualny = head;
-    while (aktualny != nullptr) {
-        if (aktualny->dane.klucz == klucz) return true;
-        aktualny = aktualny->next;
-    }
-    return false;
-}
-
-bool ListaJednokierunkowa::get(int klucz, int& wartosc) const {
-    Wezel* aktualny = head;
-    while (aktualny != nullptr) {
-        if (aktualny->dane.klucz == klucz) {
-            wartosc = aktualny->dane.wartosc;
-            return true;
-        }
-        aktualny = aktualny->next;
-    }
-    return false;
-}
-
-void ListaJednokierunkowa::wyswietl() const {
-    Wezel* aktualny = head;
-    while (aktualny != nullptr) {
-        cout << "(" << aktualny->dane.klucz << ", " << aktualny->dane.wartosc << ") ";
-        aktualny = aktualny->next;
-    }
-    cout << endl;
 }
 
 int ListaJednokierunkowa::getSize() const {

@@ -3,10 +3,13 @@
 51	187	7704707558253406	CMakeFiles/untitled.dir/TablicaDynamiczna.cpp.obj	320bf910e2ba2358
 17	365	7693736172053033	CMakeFiles/untitled.dir/main.cpp.obj	a7b9b1c539d37a53
 30	236	7693736172175605	CMakeFiles/untitled.dir/DaneGenerator.cpp.obj	834ab3bc8f78f765
+21	2177	7707286726648328	build.ninja	8354606fd1f4c613
 23	361	7694521911076330	CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj	a8697840d329d583
 35	921	7704707558098822	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
-785	872	7694526944221623	untitled.exe	1718c8a22e8ae354
-21	2177	7704708299331391	build.ninja	8354606fd1f4c613
+1408	1713	7704708314092438	untitled.exe	6a7bab87feadc872
 27	744	7704708300270739	CMakeFiles/untitled.dir/AVLTree.cpp.obj	fe7a536d77b7a307
 18	1408	7704708300183931	CMakeFiles/untitled.dir/HashTAbleAVL.cpp.obj	45c36b799fd6057c
-1408	1713	7704708314092438	untitled.exe	6a7bab87feadc872
+41	172	7707468586750857	CMakeFiles/untitled.dir/KubelkiJednokierunkowe.cpp.obj	3a116a8998995959
+44	174	7707468586783009	CMakeFiles/untitled.dir/ListaJednokierunkowa.cpp.obj	a8697840d329d583
+27	1050	7707468586608876	CMakeFiles/untitled.dir/Badanie.cpp.obj	2deb2f9d44bb7f2e
+1050	1343	7707468596842896	untitled.exe	6a7bab87feadc872

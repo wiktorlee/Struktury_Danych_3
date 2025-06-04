@@ -1,18 +1,15 @@
 #pragma once
-#include <iostream>
 
 struct ListaElement {
     int klucz;
     int wartosc;
-
-    ListaElement(int k = 0, int w = 0) : klucz(k), wartosc(w) {}
+    ListaElement(int k, int v) : klucz(k), wartosc(v) {}
 };
 
 struct Wezel {
     ListaElement dane;
     Wezel* next;
-
-    Wezel(const ListaElement& e) : dane(e), next(nullptr) {}
+    Wezel(ListaElement d) : dane(d), next(nullptr) {}
 };
 
 class ListaJednokierunkowa {
@@ -28,11 +25,6 @@ public:
     void insert(int klucz, int wartosc);
     void remove(int klucz);
 
-    bool contains(int klucz) const;
-    bool get(int klucz, int& wartosc) const;
-
-    void wyswietl() const;
     int getSize() const;
-
     Wezel* getHead() const;
 };
