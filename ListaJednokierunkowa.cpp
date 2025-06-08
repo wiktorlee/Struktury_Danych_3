@@ -12,6 +12,14 @@ ListaJednokierunkowa::~ListaJednokierunkowa() {
 }
 
 void ListaJednokierunkowa::insert(int klucz, int wartosc) {
+    Wezel* aktualny = head;
+    while (aktualny != nullptr) {
+        if (aktualny->dane.klucz == klucz) {
+            aktualny->dane.wartosc = wartosc;
+            return;
+        }
+        aktualny = aktualny->next;
+    }
 
     ListaElement e(klucz, wartosc);
     Wezel* newWezel = new Wezel(e);
