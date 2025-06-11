@@ -10,7 +10,7 @@ TablicaDynamiczna::~TablicaDynamiczna() {
     delete[] tablica;
 }
 
-int TablicaDynamiczna::hash(int klucz) const {
+int TablicaDynamiczna::hash(int klucz) const {          // prosta funckcja haszująca modulo
     return klucz % pojemnosc;
 }
 
@@ -32,14 +32,14 @@ void TablicaDynamiczna::powieksz() {
 }
 
 void TablicaDynamiczna::insert(int klucz, int wartosc) {
-    if ((rozmiar + 1) * 1.0 / pojemnosc > 0.7) {
+    if ((rozmiar + 1) * 1.0 / pojemnosc > 0.7) {                // load factor 70%
         powieksz();
     }
 
     int indeks = hash(klucz);
 
     for (int i = 0; i < pojemnosc; ++i) {
-        int indeksProby = (indeks + i) % pojemnosc;
+        int indeksProby = (indeks + i) % pojemnosc;             // liniowe sondowanie
 
         if (tablica[indeksProby].stan == PUSTY || tablica[indeksProby].stan == USUNIETY) {
             tablica[indeksProby].klucz = klucz;

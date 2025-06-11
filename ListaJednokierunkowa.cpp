@@ -13,9 +13,9 @@ ListaJednokierunkowa::~ListaJednokierunkowa() {
 
 void ListaJednokierunkowa::insert(int klucz, int wartosc) {
     Wezel* aktualny = head;
-    while (aktualny != nullptr) {
+    while (aktualny != nullptr) {                               // przeszukanie liniowe czy klucz istnieje już w liście
         if (aktualny->dane.klucz == klucz) {
-            aktualny->dane.wartosc = wartosc;
+            aktualny->dane.wartosc = wartosc;                   // jeśli TAK: nadpisujemy
             return;
         }
         aktualny = aktualny->next;

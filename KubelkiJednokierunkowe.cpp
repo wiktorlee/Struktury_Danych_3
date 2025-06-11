@@ -2,7 +2,7 @@
 
 KubelkiJednokierunkowe::KubelkiJednokierunkowe(int rozmiar) {
     rozmiarTablicy = rozmiar;
-    tablica = new ListaJednokierunkowa[rozmiarTablicy];
+    tablica = new ListaJednokierunkowa[rozmiarTablicy];                 // tworzenie tablicy kubełków; każdy kubełek to osobna lista jednokierunkowa
 }
 
 KubelkiJednokierunkowe::~KubelkiJednokierunkowe() {
@@ -10,7 +10,7 @@ KubelkiJednokierunkowe::~KubelkiJednokierunkowe() {
 }
 
 int KubelkiJednokierunkowe::hash(int klucz) const {
-    return klucz % rozmiarTablicy;
+    return klucz % rozmiarTablicy;                                      // prosta funkcja haszujaca modulo
 }
 
 void KubelkiJednokierunkowe::insert(int klucz, int wartosc) {
